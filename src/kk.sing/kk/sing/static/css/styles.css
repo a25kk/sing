@@ -121,12 +121,6 @@ body {
   background: transparent;
   vertical-align: top;
 }
-#inner-wrapper {
-  margin: 0px auto;
-  border: 0px solid green;
-  background: transparent;
-  padding: 0px 0px 0px 0px;
-}
 #top-wrapper {
   display: none;
 }
