@@ -1885,17 +1885,21 @@ span.contenttype-file {
   background: url(../images/left.png) no-repeat scroll 0 0 transparent !important;
 }
 #slider-container {
-  border: 0px !important ;
+  border: 0px solid red !important;
+}
+.slider-list {
+  border: 1px solid red;
+  width: 768px !important;
 }
 /* DEVICE ADAPTATION */
 /* iPads (portrait and landscape) */
 @media screen and (device-width: 768px) {
   #header-wrapper {
-    width: 768px !important;
+    width: 100% !important;
     border: 1px solid blue;
   }
   #content-wrapper {
-    width: 768px !important;
+    width: 100% !important;
     border: 1px solid red;
   }
   #slider-container {
