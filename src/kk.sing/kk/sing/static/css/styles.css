@@ -1920,6 +1920,7 @@ span.contenttype-file {
     border: 1px solid red;
   }
   #slider-container.slider-356a9ec5-c92d-4af5-85a9-31244eb8da24 {
-    width: 768px !important;
+    width: 80% !important;
+    height: 80% !important;
   }
 }
