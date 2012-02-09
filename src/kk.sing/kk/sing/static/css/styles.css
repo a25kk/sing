@@ -1887,10 +1887,6 @@ span.contenttype-file {
 #slider-container {
   border: 0px solid red !important;
 }
-.slider-list {
-  border: 1px solid red;
-  width: 768px !important;
-}
 /* DEVICE ADAPTATION */
 /* iPads (portrait and landscape) */
 @media screen and (device-width: 768px) {
