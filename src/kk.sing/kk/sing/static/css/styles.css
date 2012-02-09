@@ -1891,11 +1891,11 @@ span.contenttype-file {
 /* iPads (portrait and landscape) */
 @media screen and (device-width: 768px) {
   #header-wrapper {
-    width: 100% !important;
+    width: % !important;
     border: 1px solid blue;
   }
   #content-wrapper {
-    width: 100% !important;
+    width: % !important;
     border: 1px solid red;
   }
   #slider-container {
