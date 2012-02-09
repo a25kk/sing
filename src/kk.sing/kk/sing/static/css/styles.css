@@ -1890,9 +1890,6 @@ span.contenttype-file {
 /* DEVICE ADAPTATION */
 /* iPads (portrait and landscape) */
 @media screen and (device-width: 768px) {
-  body {
-    -webkit-background-size: 2000px 1314px;
-  }
   #header-wrapper {
     width: 768px !important;
     border: 1px solid blue;
