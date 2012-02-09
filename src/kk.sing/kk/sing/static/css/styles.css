@@ -1923,6 +1923,7 @@ span.contenttype-file {
 
 #content-wrapper {
   width: 768px !important;
+  border: 1px solid red;
 }
 
 
