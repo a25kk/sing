@@ -158,16 +158,16 @@ body {
 /* iPads (portrait and landscape) */
 @media screen and (device-width: 768px) {
   #header-wrapper {
-    width: 100% !important;
+    width: 80% !important;
     border: 0px solid blue;
   }
   #content-wrapper {
-    width: 100% !important;
+    width: 80% !important;
     border: 0px solid red;
   }
   #main-content {
     border: 0px solid red;
-    width: 100% !important;
+    width: 80% !important;
   }
 }
 #actions {
