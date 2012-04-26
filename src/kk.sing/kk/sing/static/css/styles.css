@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
 }
-* :link, :visited {
+* :link,
+:visited {
   text-decoration: none;
 }
-* ul, ol {
+* ul,
+ol {
   list-style: none;
 }
 * li {
@@ -21,13 +23,15 @@ pre,
 code {
   font-size: 1em;
 }
-* a img, :link img, :visited img {
+* a img,
+:link img,
+:visited img {
   border: none;
   outline: none !important;
 }
 a {
   outline: none !important;
-  color: #005b6b;
+  color: #333333;
 }
 p {
   line-height: 2.0em;
@@ -58,7 +62,8 @@ h6 {
   color: black;
   line-height: 1.5em;
 }
-h1, h2 {
+h1,
+h2 {
   letter-spacing: -0.05em;
 }
 h1 {
@@ -85,12 +90,15 @@ h3,
 h4,
 h5,
 h6 {
-  color: #005b6b;
+  color: #333333;
 }
-h2 a, h3 a, h4 a {
+h2 a,
+h3 a,
+h4 a {
   border-bottom: none !important;
 }
-a:link, a:visited {
+a:link,
+a:visited {
   color: #999;
 }
 a:hover {
@@ -105,7 +113,8 @@ dt {
 input {
   font-family: Arial;
 }
-html, body {
+html,
+body {
   height: 100%;
 }
 body {
@@ -338,15 +347,24 @@ body {
   background: white;
   padding: 5px;
 }
+#content-core {
+  padding: 0px 0px 0px 20px;
+}
+#pfg-fieldwrapper {
+  padding: 0px 0px 0px 20px;
+}
 body#content {
   margin: 0;
 }
-#content h1.documentFirstHeading {
-  margin: 0px 0px 10px 20px;
+.documentFirstHeading {
+  margin: 20px 0px 10px 20px;
   color: #333;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 100%;
+  font-size: 140%;
+}
+.section-thomas-sing-portfolio-2012 .documentFirstHeading {
+  margin: 0px 0px 10px 20px;
 }
 #content p,
 #content table,
@@ -355,14 +373,17 @@ dl.portlet p,
 dl.portlet {
   margin-bottom: 1em;
 }
-#content a:link, dl.portlet a:link {
-  color: #005b6b;
+#content a:link,
+dl.portlet a:link {
+  color: #333333;
 }
-#content a:visited, dl.portlet a:visited {
-  color: #005b6b;
+#content a:visited,
+dl.portlet a:visited {
+  color: #333333;
 }
-#content a:hover, dl.portlet a:hover {
-  color: #005b6b !important;
+#content a:hover,
+dl.portlet a:hover {
+  color: #333333 !important;
 }
 #content a:target {
   background-color: #ffb;
@@ -386,9 +407,9 @@ dl.portlet {
   -moz-border-radius: 0.5em;
 }
 #category a.link-category:hover {
-  background: #005b6b;
+  background: #333333;
   color: White;
-  border-color: #005b6b;
+  border-color: #333333;
 }
 #category .separator {
   display: none;
@@ -396,7 +417,8 @@ dl.portlet {
 #content ul {
   list-style-type: none;
 }
-#content ol, dl.portlet ol {
+#content ol,
+dl.portlet ol {
   list-style-type: decimal;
   margin-left: 2em;
 }
@@ -436,7 +458,8 @@ dl.portlet {
   display: block;
   color: #666;
 }
-#content .discreet, #sidebar .discreet {
+#content .discreet,
+#sidebar .discreet {
   color: #666;
   font-size: 85%;
   font-weight: normal;
@@ -466,7 +489,8 @@ dl.portlet {
   border-collapse: collapse;
   border-spacing: 0px;
 }
-#content .documentDescription, #content #description {
+#content .documentDescription,
+#content #description {
   color: #00525c;
   margin: 0px 0px 20px 0px;
   font-weight: bold;
@@ -474,7 +498,8 @@ dl.portlet {
   line-height: 2.0em;
   font-size: 100% !important;
 }
-#content img.tileImage, #content div.newsImageContainer {
+#content img.tileImage,
+#content div.newsImageContainer {
   float: right;
   margin: 0 1em 0.5em 1em;
 }
@@ -497,7 +522,8 @@ dl.portlet {
   clear: right;
   margin: 0 0 0.5em 1em;
 }
-table.listing, table.plain {
+table.listing,
+table.plain {
   border-spacing: 0;
   border-collapse: collapse;
 }
@@ -527,10 +553,12 @@ table.listing th {
   vertical-align: top;
   font-size: 70%;
 }
-table.plain th, table.plain td {
+table.plain th,
+table.plain td {
   border: 1px solid #ddd;
 }
-table.listing td.listingCheckbox, table.listing th.listingCheckbox {
+table.listing td.listingCheckbox,
+table.listing th.listingCheckbox {
   text-align: center;
 }
 table.listing {
@@ -589,7 +617,8 @@ table.vertical td {
   border-top: 0.1em solid #e7e7e7;
   padding: 0.5em;
 }
-table.grid td, table.grid th {
+table.grid td,
+table.grid th {
   border: 1px solid #e7e7e7;
   padding: 0.5em;
 }
@@ -627,7 +656,8 @@ dl.portalMessage {
   background-color: #ffffe3;
   clear: both;
 }
-dl.portalMessage a, #content dl.portalMessage a {
+dl.portalMessage a,
+#content dl.portalMessage a {
   color: black;
   border-bottom: 1px solid #888;
 }
@@ -704,7 +734,8 @@ dl.error dd {
 #content-views a {
   color: White;
 }
-#edit-bar, #content ul.formTabs {
+#edit-bar,
+#content ul.formTabs {
   border-style: solid solid none;
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
@@ -715,17 +746,20 @@ dl.error dd {
   display: inline;
   margin-right: 0.25em;
 }
-#content-views a, #content li.formTab a {
+#content-views a,
+#content li.formTab a {
   display: inline-block;
 }
-#content-views a, #content li.formTab a {
+#content-views a,
+#content li.formTab a {
   border: medium none;
   line-height: 2em;
   margin: 0;
   padding: 0 0.75em;
   text-decoration: none;
 }
-#content-views li.selected a, #content li.formTab a.selected {
+#content-views li.selected a,
+#content li.formTab a.selected {
   font-weight: bold;
 }
 #content-views li.selected a,
@@ -783,7 +817,8 @@ dl.error dd {
   background: none repeat scroll 0 0 #205C90;
   color: White;
 }
-#contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd {
+#contentActionMenus dl.actionMenu a,
+#contentActionMenus dl.actionMenu.activated dd {
   background-color: #75AD0A;
   color: White;
   z-index: 5;
@@ -792,14 +827,16 @@ dl.error dd {
   border-bottom: 0.5em solid #75AD0A;
   right: -3px;
 }
-#contentActionMenus dl.actionMenu.activated dd a:hover, #contentActionMenus dl.actionMenu.activated dd .actionMenuSelected {
+#contentActionMenus dl.actionMenu.activated dd a:hover,
+#contentActionMenus dl.actionMenu.activated dd .actionMenuSelected {
   background-color: White !important;
   color: #666666;
 }
 #contentActionMenus dl.actionMenu {
   line-height: 2em;
 }
-#folderHeader, #contextHeader {
+#folderHeader,
+#contextHeader {
   border-bottom: 2px solid white;
 }
 #contextHeader {
@@ -824,7 +861,8 @@ dl.actionMenu {
   position: relative;
   white-space: nowrap;
 }
-dl.actionMenu a, dl.actionMenu div {
+dl.actionMenu a,
+dl.actionMenu div {
   display: block !important;
   white-space: nowrap;
 }
@@ -847,7 +885,9 @@ dl.actionMenu.activated dd {
   position: absolute;
   width: auto;
 }
-dl.actionMenu.activated dt a, dl.actionMenu.activated dd a, dl.actionMenu.activated dd div {
+dl.actionMenu.activated dt a,
+dl.actionMenu.activated dd a,
+dl.actionMenu.activated dd div {
   margin: 0 0.25em;
 }
 #setup-link {
@@ -902,7 +942,8 @@ dl.actionMenu.activated dt a, dl.actionMenu.activated dd a, dl.actionMenu.activa
 table.controlpanel-listing {
   width: 100%;
 }
-table.controlpanel-listing td, table.controlpanel-listing th {
+table.controlpanel-listing td,
+table.controlpanel-listing th {
   font-size: 120%;
 }
 table.controlpanel-listing dl {
@@ -937,7 +978,8 @@ table.controlpanel-listing th.smallcolumn {
 .rule-element dl dd {
   margin-left: 1em;
 }
-.rule-updown, .rule-operations {
+.rule-updown,
+.rule-operations {
   float: right;
   padding-top: 0.8em;
 }
@@ -968,7 +1010,8 @@ dl.collapsible dd.collapsibleContent > dl {
   margin: 0;
   padding: 0;
 }
-dl.expandedInlineCollapsible dt.collapsibleHeader, dl.expandedBlockCollapsible dt.collapsibleHeader {
+dl.expandedInlineCollapsible dt.collapsibleHeader,
+dl.expandedBlockCollapsible dt.collapsibleHeader {
   background: url("treeExpanded.png") no-repeat scroll 0.5em 50% White;
   cursor: pointer;
   padding: 0 0.5em 0 2em;
@@ -978,7 +1021,8 @@ dl.collapsedBlockCollapsible {
   height: 1em;
   width: auto;
 }
-dl.collapsedInlineCollapsible dt.collapsibleHeader, dl.collapsedBlockCollapsible dt.collapsibleHeader {
+dl.collapsedInlineCollapsible dt.collapsibleHeader,
+dl.collapsedBlockCollapsible dt.collapsibleHeader {
   background: url("treeCollapsed.png") no-repeat scroll 0.5em 50% White;
   cursor: pointer;
   float: none;
@@ -987,7 +1031,8 @@ dl.collapsedInlineCollapsible dt.collapsibleHeader, dl.collapsedBlockCollapsible
   padding: 0 0.5em 0 2em;
   position: relative;
 }
-dl.collapsedInlineCollapsible dd.collapsibleContent, dl.collapsedBlockCollapsible dd.collapsibleContent {
+dl.collapsedInlineCollapsible dd.collapsibleContent,
+dl.collapsedBlockCollapsible dd.collapsibleContent {
   display: none;
 }
 dl.collapsedInlineCollapsible {
@@ -1032,7 +1077,8 @@ dl.collapsedInlineCollapsible dt.collapsibleHeader {
 .comment h6 {
   font-weight: normal;
 }
-.reviewHistory, .contentHistory {
+.reviewHistory,
+.contentHistory {
   color: Black;
   display: inline;
 }
@@ -1094,7 +1140,9 @@ input.searchPage {
 .image-inline {
   float: none;
 }
-img.image-left, img.image-right, .captioned img {
+img.image-left,
+img.image-right,
+.captioned img {
   border: 0px solid #ddd;
 }
 dd.image-caption {
@@ -1104,13 +1152,15 @@ dd.image-caption {
   color: #666;
   font-size: 85%;
 }
-fieldset, .editionComment {
+fieldset,
+.editionComment {
   line-height: 1.5em;
   margin: 1em 0;
   padding: 0 1em 1em;
   width: auto;
 }
-#content .field input[type="text"][name$=".title"], #archetypes-fieldname-title input {
+#content .field input[type="text"][name$=".title"],
+#archetypes-fieldname-title input {
   font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
   line-height: 125%;
   color: Black;
@@ -1119,7 +1169,8 @@ fieldset, .editionComment {
   font-size: 2em;
   font-weight: bold;
 }
-#content .field textarea[name$=".description"], #archetypes-fieldname-description textarea#description {
+#content .field textarea[name$=".description"],
+#archetypes-fieldname-description textarea#description {
   font-family: Arial, FreeSans, sans-serif;
   color: #666666;
   font-size: 1.25em;
@@ -1128,7 +1179,9 @@ fieldset, .editionComment {
 div.formControls {
   margin: 1em;
 }
-input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
   background-color: #ffffe0;
 }
 #content textarea {
@@ -1176,15 +1229,17 @@ dl.enableFormTabbing dd {
   clear: both;
   margin-bottom: 1em;
 }
-.field input[type="text"][name$=".title"], input#title {
+.field input[type="text"][name$=".title"],
+input#title {
   width: 100%;
 }
-.field.error input[type="text"][name$=".title"], .error input#title {
+.field.error input[type="text"][name$=".title"],
+.error input#title {
   width: 99%;
 }
 .required {
   padding-right: 1em;
-  color: #bd0017 !important;
+  color: #cccccc !important;
 }
 .fieldUploadFile {
   text-align: right;
@@ -1224,27 +1279,34 @@ textarea#form\.description {
   height: 6em;
   width: 99%;
 }
-table.listing tbody tr.odd.selected td, tr.selected {
+table.listing tbody tr.odd.selected td,
+tr.selected {
   background-color: #ffa;
 }
-body.template-logged_out #content, body.template-login_form #content, .pb-ajax #login-form {
+body.template-logged_out #content,
+body.template-login_form #content,
+.pb-ajax #login-form {
   text-align: center;
 }
-#fieldset-openid-login input, #login-form input {
+#fieldset-openid-login input,
+#login-form input {
   font-size: 150%;
 }
-body.template-register #content input, body.template-new-user #content input {
+body.template-register #content input,
+body.template-new-user #content input {
   font-size: 150%;
   width: inherit;
 }
-#fieldset-openid-login label, #login-form label {
+#fieldset-openid-login label,
+#login-form label {
   margin-right: 0.5em;
   padding-top: 0.2em;
   text-align: right;
   width: 10em;
   display: inline-block;
 }
-#fieldset-openid-login .formControls input, #login-form .formControls input {
+#fieldset-openid-login .formControls input,
+#login-form .formControls input {
   margin-left: 0.25em;
 }
 div.overlay {
@@ -1254,7 +1316,8 @@ div.overlay {
   margin: 1em;
   font-size: 80%;
 }
-div.overlay-iframe, div.overlay-ajax {
+div.overlay-iframe,
+div.overlay-ajax {
   width: 60%;
   min-height: 100px;
   z-index: 99;
@@ -1262,7 +1325,8 @@ div.overlay-iframe, div.overlay-ajax {
 div.overlay-iframe {
   height: 60%;
 }
-div.overlaybg div.close, div.overlay div.close {
+div.overlaybg div.close,
+div.overlay div.close {
   background-image: url(../images/pb_close.png);
   position: absolute;
   left: -14px;
@@ -1274,7 +1338,8 @@ div.overlaybg div.close, div.overlay div.close {
 .pb-ajax {
   overflow-y: auto;
 }
-.pb-ajax, .pb-image {
+.pb-ajax,
+.pb-image {
   background-color: #fff;
   border: 1px solid #999;
   white-space: normal;
@@ -1316,7 +1381,7 @@ div.overlay label {
   margin-bottom: 0.25em;
 }
 div.overlay a:hover {
-  color: #005b6b;
+  color: #333333;
 }
 div.overlay a.selected {
   color: #000000;
@@ -1474,13 +1539,15 @@ div.position-0 {
   text-align: center;
   font-size: 60% !important;
   text-decoration: none !important;
-  background: #005b6b;
+  background: #333333;
   color: white !important;
 }
 .carousel-pager-item-active {
   background: #be0020 !important;
 }
-.carousel-pager-item-active a:link, .carousel-pager-item-active a:visited, .carousel-pager-item-active .carousel-title {
+.carousel-pager-item-active a:link,
+.carousel-pager-item-active a:visited,
+.carousel-pager-item-active .carousel-title {
   color: white !important;
 }
 .autoFlowPlayer {
@@ -1530,7 +1597,8 @@ div.position-0 {
 .portletItem ul {
   list-style-type: none;
 }
-.portletHeader, .portletFooter {
+.portletHeader,
+.portletFooter {
   position: relative!important;
   border: 0px;
   width: 100%;
@@ -1544,7 +1612,8 @@ div.position-0 {
   padding: 5px 0px 5px 0px;
   margin: 0px;
 }
-.portletItem a, .portletFooter a {
+.portletItem a,
+.portletFooter a {
   border-bottom: none;
   color: #333333 !important;
 }
@@ -1556,7 +1625,8 @@ div.position-0 {
   padding: 0px 20px 0px 0px;
   font-size: 105%;
 }
-.portletHeader, .managedPortlet .portletHeader {
+.portletHeader,
+.managedPortlet .portletHeader {
   background: transparent !important;
   border: 0px solid #ffe600;
   border-width: 0px;
@@ -1568,7 +1638,8 @@ div.position-0 {
   margin: 0px;
   font-size: 140% !important;
 }
-.portletHeader a, .managedPortlet .portletHeader a {
+.portletHeader a,
+.managedPortlet .portletHeader a {
   outline: none;
   font-weight: bold !important;
 }
@@ -1586,7 +1657,7 @@ div.position-0 {
   display: block;
   color: black;
   font-size: 100%;
-  color: #999999;
+  color: #333333;
 }
 span.portletItemDetails {
   display: block;
@@ -1624,7 +1695,8 @@ div.managedPortlet {
 .managedPortletActions a {
   text-decoration: none;
 }
-.managedPortletActions a.up, .managedPortletActions a.down {
+.managedPortletActions a.up,
+.managedPortletActions a.down {
   color: blue !important;
 }
 .managedPortletActions a.delete {
@@ -1704,7 +1776,8 @@ div.managedPortlet {
   font-size: 80%;
   font-weight: bold;
 }
-.navTreeItem a, dd.portletItem .navTreeItem a {
+.navTreeItem a,
+dd.portletItem .navTreeItem a {
   border: 0px !important;
   display: block;
   text-decoration: none;
@@ -1715,7 +1788,8 @@ div.managedPortlet {
   font-size: 90% !important;
   color: white !important;
 }
-.navTreeLevel1 .navTreeItem a, .navTreeLevel1 dd.portletItem .navTreeItem a {
+.navTreeLevel1 .navTreeItem a,
+.navTreeLevel1 dd.portletItem .navTreeItem a {
   border: 0px !important;
   display: block;
   text-decoration: none;
@@ -1759,7 +1833,8 @@ div.managedPortlet {
 .contenttype-formfolder img {
   display: none;
 }
-* html li.navTreeCurrentItem a, * html li.navTreeCurrentItem a:hover {
+* html li.navTreeCurrentItem a,
+* html li.navTreeCurrentItem a:hover {
   height: 1.6em;
 }
 .navTreeLevel0 {
