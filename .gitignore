@@ -26,4 +26,7 @@ src/sauna.reload
 src/Products.windowZ
 .DS_Store
 known-good-versions.cfg
+.codeintel/
 src/vwc.toolbar
+src/ade25.fabfiles
+src/vwc.typekit
