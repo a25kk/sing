@@ -49,7 +49,7 @@
 	    
 	    <!-- Copy over the contents of the page body -->
 	    <replace css:content-children="#viewlet-above-content" css:theme-children="#above-content" />
-	<replace css:content="#portal-globalnav li" css:theme-children="#main-nav" />
+	    <replace css:content="#portal-globalnav li" css:theme-children="#main-nav" />
 	    <replace css:content-children="#content" css:theme-children="#content" />
 	    <replace css:content="#edit-bar" css:theme="#editbar" />
         
