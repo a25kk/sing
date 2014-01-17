@@ -8586,8 +8586,9 @@ ul.visualNoMarker {
   clear: both;
 }
 .container {
-  border: 1px solid red;
+  border: 0px solid red;
   max-width: 960px;
+  padding: 11px;
 }
 .label:empty {
   display: inline !important;
@@ -8653,6 +8654,11 @@ ul.visualNoMarker {
 }
 #slider-container {
   border: 0px solid red !important;
+}
+.app-footer {
+  text-transform: uppercase;
+  font-size: 10.666666666666666px;
+  text-align: center;
 }
 .app-start-logo-wrapper {
   border: 0px solid red;

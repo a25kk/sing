@@ -46,6 +46,10 @@
 	    <!-- Copy pathbar/breadcrumbs -->
         <replace css:content="#portal-breadcrumbs" css:theme="#breadcrumbs" />
         <drop css:content="#breadcrumbs-you-are-here" />
+
+        <replace css:content="#app-banner"
+            css:theme="#app-banner"
+            css:if-content="#app-banner" />
 	    
 	    <!-- Copy over the contents of the page body -->
 	    <replace css:content-children="#viewlet-above-content" css:theme-children="#above-content" />
