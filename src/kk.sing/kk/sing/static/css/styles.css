@@ -8681,12 +8681,19 @@ a {
   display: none;
 }
 .carousel-inner {
-  overflow: hidden;
+  overflow: auto;
   position: relative;
   width: 100%;
 }
 .carousel-inner .item {
-  height: 600px;
+  height: 250px;
+  background-size: cover !important;
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 768px) {
+  .carousel-inner .item {
+    height: 600px;
+  }
 }
 .carousel-control {
   bottom: 0;
