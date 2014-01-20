@@ -8597,7 +8597,7 @@ ul.visualNoMarker {
   display: inline !important;
 }
 .logo {
-  margin: 0 auto;
+  margin: 22px auto 0 auto;
   width: 158px;
   display: block;
   overflow: hidden;
