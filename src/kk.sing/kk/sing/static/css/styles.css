@@ -8596,6 +8596,9 @@ ul.visualNoMarker {
 .label:empty {
   display: inline !important;
 }
+a {
+  outline: none !important;
+}
 .logo {
   margin: 22px auto 0 auto;
   width: 158px;
