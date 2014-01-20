@@ -8657,9 +8657,6 @@ ul.visualNoMarker {
 #slider-container {
   border: 0px solid red !important;
 }
-.portaltype-plone-site #content {
-  display: none;
-}
 .carousel-inner {
   overflow: hidden;
   position: relative;
