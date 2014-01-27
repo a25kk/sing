@@ -264,7 +264,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Monotype Modern W01 Cn", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.428571429;
   color: #333333;
@@ -346,7 +346,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Monotype Modern W01 Cn", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -8562,6 +8562,11 @@ dd.image-caption {
 }
 .fa-plus-square-o:before {
   content: "\f196";
+}
+@font-face {
+  font-family: "Monotype Modern W01 Cn";
+  src: url("../fonts/710246/2914b868-c0b8-4841-b2fb-f6b4db5fc8b3.eot?#iefix");
+  src: url("../fonts/710246/2914b868-c0b8-4841-b2fb-f6b4db5fc8b3.eot?#iefix") format("eot"), url("../fonts/710246/8be81b72-a9df-4662-8ab9-0e6d1c4c62a1.woff") format("woff"), url("../fonts/710246/71d10f82-7fe5-46d6-a676-c316f6f13292.ttf") format("truetype"), url("../fonts/710246/71e9eab8-e555-491c-8cf9-511986441514.svg#71e9eab8-e555-491c-8cf9-511986441514") format("svg");
 }
 .light {
   color: #92dfff;

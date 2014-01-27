@@ -4,4 +4,8 @@
     id="++theme++kk.sing/js/bootstrap.min.js"
     cacheable="True" compression="safe" cookable="False"
     enabled="True" expression="request/HTTP_X_THEME_ENABLED | nothing"  inline="False"/>
+     <javascript
+    id="++theme++kk.sing/js/application.js"
+    cacheable="True" compression="safe" cookable="False"
+    enabled="True" expression="request/HTTP_X_THEME_ENABLED | nothing"  inline="False"/>
 </object>
