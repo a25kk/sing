@@ -8734,9 +8734,12 @@ a {
   top: 50% !important;
   bottom: 50%;
 }
+.documentFirstHeading {
+  text-align: center;
+  font-size: 30px;
+}
 .app-footer {
-  text-transform: uppercase;
-  font-size: 9.411764705882353px;
+  font-size: 13.333333333333334px;
   text-align: center;
 }
 .app-start-logo-wrapper {
