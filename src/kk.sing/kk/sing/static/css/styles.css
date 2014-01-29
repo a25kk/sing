@@ -8606,7 +8606,7 @@ a {
 }
 .logo {
   margin: 22px auto 0 auto;
-  width: 158px;
+  width: 200px;
   display: block;
   overflow: hidden;
 }
@@ -8630,7 +8630,6 @@ a {
   font-size: 16px;
   list-style: none;
   padding-right: 26.4px !important;
-  width: 100% !important;
   /* Small devices (tablets, 768px and up) */
 }
 @media (min-width: 768px) {
