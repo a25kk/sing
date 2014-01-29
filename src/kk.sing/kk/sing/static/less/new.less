@@ -21,22 +21,26 @@ a {
 
 
 .logo {
-    margin: @line-height-computed auto 0 auto;
+    margin: (@line-height-computed / 2) auto 0 auto;
     width: 200px;
     display: block;
     overflow: hidden;
 
     img {
-    padding: @line-height-computed 0;
+    padding: 0;
     }
 }
 
 
 // NAV
 
-.navbar-nav {
+.navbar {
     margin: 0 auto;
-    border: 1px solid red !important;
+
+    /* Small devices (tablets, 768px and up) */
+        @media (min-width: @screen-sm-min) {
+            border: 0px;
+        }
 }
 
 #main-nav {
@@ -52,15 +56,16 @@ a {
     li {
         font-size: @font-size-base;
         list-style: none;
-        padding-right: @line-height-computed * 1.2 !important;
+        font-size:(@font-size-base * 1.5);
 
 
 
         /* Small devices (tablets, 768px and up) */
         @media (min-width: @screen-sm-min) {
-            font-size:(@font-size-base / 1.5);
+            font-size:(@font-size-base * 1.7);
             display: inline;
             text-align: center;
+            background: url(../images/dot.png) 0px 25px no-repeat transparent;
         }
 
         a {
@@ -68,9 +73,13 @@ a {
             -moz-transition:color 0.5s ease-in;  
             -o-transition:color 0.5s ease-in;  
             transition:color 0.5s ease-in;
-            text-transform: uppercase;
             color: @gray;
+            padding-right: 10px;
         }
+    }
+
+    #portaltab-portfolio {
+        background: transparent !important;
     }
 
 }

@@ -8605,17 +8605,22 @@ a {
   outline: none !important;
 }
 .logo {
-  margin: 22px auto 0 auto;
+  margin: 11px auto 0 auto;
   width: 200px;
   display: block;
   overflow: hidden;
 }
 .logo img {
-  padding: 22px 0;
+  padding: 0;
 }
-.navbar-nav {
+.navbar {
   margin: 0 auto;
-  border: 1px solid red !important;
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 768px) {
+  .navbar {
+    border: 0px;
+  }
 }
 #main-nav {
   background: transparent;
@@ -8629,14 +8634,15 @@ a {
 #main-nav li {
   font-size: 16px;
   list-style: none;
-  padding-right: 26.4px !important;
+  font-size: 24px;
   /* Small devices (tablets, 768px and up) */
 }
 @media (min-width: 768px) {
   #main-nav li {
-    font-size: 10.666666666666666px;
+    font-size: 27.2px;
     display: inline;
     text-align: center;
+    background: url(../images/dot.png) 0px 25px no-repeat transparent;
   }
 }
 #main-nav li a {
@@ -8644,8 +8650,11 @@ a {
   -moz-transition: color 0.5s ease-in;
   -o-transition: color 0.5s ease-in;
   transition: color 0.5s ease-in;
-  text-transform: uppercase;
   color: #555555;
+  padding-right: 10px;
+}
+#main-nav #portaltab-portfolio {
+  background: transparent !important;
 }
 #edit-bar {
   display: inline-block;
