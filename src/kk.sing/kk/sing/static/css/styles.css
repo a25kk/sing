@@ -8604,7 +8604,7 @@ a {
   outline: none !important;
 }
 .logo {
-  margin: 11px auto 0 auto;
+  margin: 22px auto 0 auto;
   width: 200px;
   display: block;
   overflow: hidden;
@@ -8613,7 +8613,7 @@ a {
   padding: 0;
 }
 .navbar {
-  margin: 10px auto 0 auto;
+  margin: 10px auto 10px auto;
   /* Small devices (tablets, 768px and up) */
 }
 @media (min-width: 768px) {
@@ -8692,11 +8692,6 @@ a {
 .template-folder_listing #content {
   display: none;
 }
-.carousel-inner {
-  overflow: auto;
-  position: relative;
-  width: 100%;
-}
 .carousel-inner .item {
   height: 250px;
   background-size: cover !important;
@@ -8738,8 +8733,11 @@ a {
   font-size: 30px;
 }
 .app-footer {
-  font-size: 13.333333333333334px;
+  font-size: 10.666666666666666px;
   text-align: center;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  text-transform: uppercase;
 }
 .app-start-logo-wrapper {
   border: 0px solid red;

@@ -20,7 +20,7 @@ a {
 
 
 .logo {
-    margin: (@line-height-computed / 2) auto 0 auto;
+    margin: (@line-height-computed) auto 0 auto;
     width: 200px;
     display: block;
     overflow: hidden;
@@ -34,7 +34,7 @@ a {
 // NAV
 
 .navbar {
-    margin: 10px auto 0 auto;
+    margin: 10px auto 10px auto;
 
     /* Small devices (tablets, 768px and up) */
         @media (min-width: @screen-sm-min) {
@@ -136,11 +136,7 @@ a {
 
 
 .carousel-inner {
-    overflow: auto;
-    position: relative;
-    width: 100%;
     
-
     .item {
         height: 250px;
         background-size: cover !important;
@@ -193,8 +189,11 @@ a {
 //FOOTER
 
 .app-footer {
-    font-size: (@font-size-base / 1.2);
+    font-size: (@font-size-base / 1.5);
     text-align: center;
+    margin-top: (@line-height-computed / 2);
+    margin-bottom: (@line-height-computed / 2);
+    text-transform: uppercase;
 }
 
 
