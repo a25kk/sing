@@ -8595,8 +8595,7 @@ ul.visualNoMarker {
 }
 .container {
   border: 0px solid red;
-  max-width: 849px;
-  padding: 11px;
+  max-width: 960px;
 }
 .label:empty {
   display: inline !important;
@@ -8614,7 +8613,7 @@ a {
   padding: 0;
 }
 .navbar {
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
   /* Small devices (tablets, 768px and up) */
 }
 @media (min-width: 768px) {
@@ -8639,7 +8638,7 @@ a {
 }
 @media (min-width: 768px) {
   #main-nav li {
-    font-size: 27.2px;
+    font-size: 30.4px;
     display: inline;
     text-align: center;
     background: url(../images/dot.png) 0px 25px no-repeat transparent;
