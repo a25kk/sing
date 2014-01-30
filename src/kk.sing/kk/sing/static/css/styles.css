@@ -8729,8 +8729,11 @@ a {
   bottom: 50%;
 }
 .documentFirstHeading {
-  text-align: center;
-  font-size: 30px;
+  display: none;
+}
+.image-left {
+  border: 0 !important;
+  padding-top: 0 !important;
 }
 .app-footer {
   font-size: 10.666666666666666px;
