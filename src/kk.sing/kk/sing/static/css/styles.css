@@ -8735,6 +8735,19 @@ a {
   border: 0 !important;
   padding-top: 0 !important;
 }
+.back {
+  margin-top: -33px;
+  text-transform: uppercase;
+}
+.carouselText1 {
+  margin-top: 264px;
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 768px) {
+  .carouselText1 {
+    margin-top: 616px;
+  }
+}
 .app-footer {
   font-size: 10.666666666666666px;
   text-align: center;
