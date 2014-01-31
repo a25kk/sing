@@ -8621,6 +8621,9 @@ a {
     border: 0px;
   }
 }
+.navbar-default {
+  background: transparent !important;
+}
 #main-nav {
   background: transparent;
   margin: 0;
