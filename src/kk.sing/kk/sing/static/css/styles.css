@@ -8628,15 +8628,18 @@ a {
   background: transparent;
   margin: 0;
   padding: 0;
-  border: 0px solid red !important;
   display: inline-block;
   width: 100%;
-  padding-left: 22px;
+}
+@media (min-width: 768px) {
+  #main-nav {
+    padding-left: 220px;
+  }
 }
 #main-nav li {
   font-size: 16px;
-  list-style: none;
   font-size: 24px;
+  list-style-type: none;
   /* Small devices (tablets, 768px and up) */
 }
 @media (min-width: 768px) {
@@ -8737,6 +8740,9 @@ a {
   margin-top: -33px;
   text-transform: uppercase;
   background: white;
+}
+.portaltype-plone-site .back {
+  display: none;
 }
 .carouselText1 {
   padding-top: 330px !important;
