@@ -5,12 +5,12 @@
                     class python:is_active and base_class + ' active' or base_class">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 fadein scaleInv anim_1">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 fadein scaleInv anim_1">
                 <div class="fadein scaleInv anim_2">
                     <div class="carouselText1 animated fadeInUpBig">
-                        <span class="colortext"
+                        <div class="colortext"
                             tal:content="context/headline">
-                            Headline</span>
+                            Headline</div>
                     </div>
                 </div>
                 <div class="fadein scaleInv anim_1">

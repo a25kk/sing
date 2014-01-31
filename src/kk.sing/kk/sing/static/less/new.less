@@ -138,13 +138,7 @@ a {
 .carousel-inner {
     
     .item {
-        height: 250px;
-        background-size: cover !important;
-
-        /* Small devices (tablets, 768px and up) */
-        @media (min-width: @screen-sm-min) {
-            height: 600px;
-        }
+        background-size: contain !important;
     }
 }
 
@@ -193,16 +187,18 @@ a {
 .back {
     margin-top: (-@line-height-computed * 1.5);
     text-transform: uppercase;
+    background: white;
 }
 
 .carouselText1 {
-    margin-top: (@line-height-computed * 12);
+    padding-top: (@line-height-computed * 15) !important;
 
     /* Small devices (tablets, 768px and up) */
         @media (min-width: @screen-sm-min) {
-            margin-top: (@line-height-computed * 28);
+            padding-top: (@line-height-computed * 29) !important;
         }
 }
+
 
 //FOOTER
 
