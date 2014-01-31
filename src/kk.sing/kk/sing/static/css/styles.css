@@ -8727,6 +8727,8 @@ a {
 .image-left {
   border: 0 !important;
   padding-top: 0 !important;
+  display: block;
+  max-width: 100%;
 }
 .back {
   margin-top: -33px;
