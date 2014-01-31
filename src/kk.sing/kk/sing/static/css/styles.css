@@ -8630,8 +8630,14 @@ a {
   padding: 0;
   display: inline-block;
   width: 100%;
+  /* Medium devices (desktops, 992px and up) */
 }
 @media (min-width: 768px) {
+  #main-nav {
+    padding-left: 132px;
+  }
+}
+@media (min-width: 992px) {
   #main-nav {
     padding-left: 220px;
   }

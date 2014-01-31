@@ -54,7 +54,12 @@ a {
     width: 100%;
 
     @media (min-width: @screen-sm-min) {
-            padding-left: @line-height-computed * 10;
+            padding-left: (@line-height-computed * 6);
+        }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: @screen-md-min) {
+        padding-left: (@line-height-computed * 10);
         }
 
 
