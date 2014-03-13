@@ -1,4 +1,4 @@
-<section class="app-banner carousel carousel-fade slide home-slider"
+<section class="app-banner carousel carousel-fade slide home-slider" data-ride="carousel"
     id="app-banner"
     i18n:domain="ade25.banner"
     tal:condition="viewlet/has_banners"
