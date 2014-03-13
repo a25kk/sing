@@ -15,9 +15,9 @@ env.port = '22222'
 env.user = 'root'
 env.hosts = ['z7']
 env.webserver = '/opt/webserver/buildout.webserver'
-env.code_root = '/opt/sites/plonesite/buildout.plonesite'
+env.code_root = '/opt/sites/sing/buildout.sing'
 env.local_root = '/Users/sd/dev/sing/buildout.sing'
-env.sitename = 'plonesite'
+env.sitename = 'sing'
 env.code_user = 'root'
 env.prod_user = 'www'
 
