@@ -8634,12 +8634,12 @@ a {
 }
 @media (min-width: 768px) {
   #main-nav {
-    padding-left: 132px;
+    padding-left: 88px;
   }
 }
 @media (min-width: 992px) {
   #main-nav {
-    padding-left: 220px;
+    padding-left: 176px;
   }
 }
 #main-nav li {
@@ -8747,7 +8747,8 @@ a {
   text-transform: uppercase;
   background: white;
 }
-.portaltype-plone-site .back {
+.portaltype-plone-site .back,
+.section-portrait .back {
   display: none;
 }
 .carouselText1 {
