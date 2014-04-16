@@ -54,12 +54,13 @@ a {
     width: 100%;
 
     @media (min-width: @screen-sm-min) {
-            padding-left: (@line-height-computed * 4);
+            padding-left: (@line-height-computed * 1.5);
         }
 
-    /* Medium devices (desktops, 992px and up) */
-    @media (min-width: @screen-md-min) {
-        padding-left: (@line-height-computed * 8);
+
+    /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: @screen-lg-min) {
+            padding-left: (@line-height-computed * 5);
         }
 
 
@@ -72,10 +73,15 @@ a {
 
         /* Small devices (tablets, 768px and up) */
         @media (min-width: @screen-sm-min) {
-            font-size:(@font-size-base * 1.9);
+            font-size:(@font-size-base * 1.7);
             display: inline;
             text-align: center;
             background: url(../images/dot.png) 0px 25px no-repeat transparent;
+        }
+
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: @screen-lg-min) {
+            font-size:(@font-size-base * 1.9);
         }
 
         a {

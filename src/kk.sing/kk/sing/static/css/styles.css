@@ -8630,16 +8630,16 @@ a {
   padding: 0;
   display: inline-block;
   width: 100%;
-  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
 }
 @media (min-width: 768px) {
   #main-nav {
-    padding-left: 88px;
+    padding-left: 33px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #main-nav {
-    padding-left: 176px;
+    padding-left: 110px;
   }
 }
 #main-nav li {
@@ -8647,13 +8647,19 @@ a {
   font-size: 24px;
   list-style-type: none;
   /* Small devices (tablets, 768px and up) */
+  /* Large devices (large desktops, 1200px and up) */
 }
 @media (min-width: 768px) {
   #main-nav li {
-    font-size: 30.4px;
+    font-size: 27.2px;
     display: inline;
     text-align: center;
     background: url(../images/dot.png) 0px 25px no-repeat transparent;
+  }
+}
+@media (min-width: 1200px) {
+  #main-nav li {
+    font-size: 30.4px;
   }
 }
 #main-nav li a {
