@@ -29,8 +29,8 @@
             </tal:block>
         </div>
         <!-- /.carousel-inner -->
-        <a data-slide="prev" href="#app-banner" class="left carousel-control animated fadeInLeft"><i class="fa fa-chevron-left"></i></a>
-        <a data-slide="next" href="#app-banner" class="right carousel-control animated fadeInRight"><i class="fa fa-chevron-right"></i></a>
+        <a data-slide="prev" href="#app-banner" class="left carousel-control animated fadeInLeft"><i class="fa fa-chevron-left fa-3x"></i></a>
+        <a data-slide="next" href="#app-banner" class="right carousel-control animated fadeInRight"><i class="fa fa-chevron-right fa-3x"></i></a>
     </tal:block>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fadein scaleInv anim_1">
             <a class="pull-right back" href="javascript: history.go(-1)">Back</a>
