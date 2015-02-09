@@ -8637,6 +8637,11 @@ a {
     font-size: 16px;
   }
 }
+@media (min-width: 992px) {
+  #main-nav {
+    padding-left: 121px;
+  }
+}
 @media (min-width: 1200px) {
   #main-nav {
     padding-left: 33px;
@@ -8754,7 +8759,8 @@ a {
   background: white;
 }
 .portaltype-plone-site .back,
-.section-portrait .back {
+.section-portrait .back,
+.section-commercial .back {
   display: none;
 }
 .carouselText1 {

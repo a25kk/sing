@@ -58,6 +58,10 @@ a {
             font-size: @font-size-base;
         }
 
+    @media (min-width: @screen-md-min) {
+        padding-left: (@line-height-computed * 5.5);
+    }
+
 
     /* Large devices (large desktops, 1200px and up) */
         @media (min-width: @screen-lg-min) {
@@ -211,7 +215,8 @@ a {
 }
 
 .portaltype-plone-site,
-.section-portrait {
+.section-portrait,
+.section-commercial {
     .back {
         display: none;
     }
