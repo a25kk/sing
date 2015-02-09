@@ -8637,6 +8637,11 @@ a {
     font-size: 16px;
   }
 }
+@media (min-width: 1200px) {
+  #main-nav {
+    padding-left: 33px;
+  }
+}
 #main-nav li {
   font-size: 16px;
   font-size: 24px;
