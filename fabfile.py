@@ -13,11 +13,11 @@ env.use_ssh_config = True
 env.forward_agent = True
 env.port = '22222'
 env.user = 'root'
-env.hosts = ['z2']
+env.hosts = ['z7']
 env.webserver = '/opt/webserver/buildout.webserver'
-env.code_root = '/opt/sites/sing/buildout.sing'
+env.code_root = '/opt/sites/plonesite/buildout.plonesite'
 env.local_root = '/Users/sd/dev/sing/buildout.sing'
-env.sitename = 'sing'
+env.sitename = 'plonesite'
 env.code_user = 'root'
 env.prod_user = 'www'
 

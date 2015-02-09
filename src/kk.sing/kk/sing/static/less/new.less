@@ -54,13 +54,14 @@ a {
     width: 100%;
 
     @media (min-width: @screen-sm-min) {
-            padding-left: (@line-height-computed * 1.5);
+            // padding-left: (@line-height-computed * 1.5);
+            font-size: @font-size-base;
         }
 
 
     /* Large devices (large desktops, 1200px and up) */
         @media (min-width: @screen-lg-min) {
-            padding-left: (@line-height-computed * 5);
+            
         }
 
 
@@ -73,7 +74,7 @@ a {
 
         /* Small devices (tablets, 768px and up) */
         @media (min-width: @screen-sm-min) {
-            font-size:(@font-size-base * 1.7);
+            font-size:(@font-size-base * 1.4);
             display: inline;
             text-align: center;
             background: url(../images/dot.png) 0px 25px no-repeat transparent;

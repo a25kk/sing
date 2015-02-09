@@ -8634,12 +8634,7 @@ a {
 }
 @media (min-width: 768px) {
   #main-nav {
-    padding-left: 33px;
-  }
-}
-@media (min-width: 1200px) {
-  #main-nav {
-    padding-left: 110px;
+    font-size: 16px;
   }
 }
 #main-nav li {
@@ -8651,7 +8646,7 @@ a {
 }
 @media (min-width: 768px) {
   #main-nav li {
-    font-size: 27.2px;
+    font-size: 22.4px;
     display: inline;
     text-align: center;
     background: url(../images/dot.png) 0px 25px no-repeat transparent;
