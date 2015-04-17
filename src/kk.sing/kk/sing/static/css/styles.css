@@ -8634,17 +8634,18 @@ a {
 }
 @media (min-width: 768px) {
   #main-nav {
+    padding-left: 55px;
     font-size: 16px;
   }
 }
 @media (min-width: 992px) {
   #main-nav {
-    padding-left: 121px;
+    padding-left: 165px;
   }
 }
 @media (min-width: 1200px) {
   #main-nav {
-    padding-left: 33px;
+    padding-left: 88px;
   }
 }
 #main-nav li {
