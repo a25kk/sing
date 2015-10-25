@@ -21,6 +21,9 @@ env.sitename = 'sing'
 env.code_user = 'root'
 env.prod_user = 'www'
 
+# Uncomment and add your name here
+env.actor = 'Serge Davidov'
+
 
 @task
 def deploy():
