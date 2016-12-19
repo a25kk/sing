@@ -59,13 +59,13 @@ a {
         }
 
     @media (min-width: @screen-md-min) {
-        padding-left: (@line-height-computed * 9.5);
+        padding-left: (@line-height-computed * 14);
     }
 
 
     /* Large devices (large desktops, 1200px and up) */
         @media (min-width: @screen-lg-min) {
-            padding-left: (@line-height-computed * 5);
+            padding-left: (@line-height-computed * 13);
         }
 
 
@@ -184,14 +184,18 @@ a {
     left: auto;
     right: 0;
     border: 0px solid red;
-    top: 50% !important;
-    bottom: 50%;
+    top: 40% !important;
+    bottom: 60%;
 }
 
 .carousel-control.left {
     background-image: none;
-    top: 50% !important;
-    bottom: 50%;
+    top: 40% !important;
+    bottom: 60%;
+}
+
+.carousel-indicators {
+    display: none;
 }
 
 
